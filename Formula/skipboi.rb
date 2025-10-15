@@ -1,8 +1,8 @@
 class Skipboi < Formula
   desc "A simple macOS CLI for controlling Apple Music"
   homepage "https://github.com/IanKnighton/skipboi"
-  url "https://github.com/IanKnighton/skipboi/archive/refs/tags/v1.1.0.tar.gz"
-  sha256 "a2e3ab0828db2cb3a58d70eeac274db1cfb04965acc46983676ee05a32296635"
+  url "https://github.com/IanKnighton/skipboi/archive/refs/tags/v1.1.1.tar.gz"
+  sha256 "e913f14b00e82794c823af9d7754e3f3352d576f2bc675681110285482617495"
   license "MIT"
 
   depends_on xcode: ["12.0", :build]
