@@ -1,16 +1,17 @@
 class Skipboi < Formula
   desc "A simple macOS CLI for controlling Apple Music"
   homepage "https://github.com/IanKnighton/skipboi"
-  url "https://github.com/IanKnighton/skipboi/archive/refs/tags/v1.2.2.tar.gz"
-  sha256 "65d975d62ab7dd27d9f6293e90d679f1a46d6cae82a88ce0aea6d56a07ae6597"
+  url "https://github.com/IanKnighton/skipboi/archive/refs/tags/v1.2.3.tar.gz"
+  sha256 "4e836581a74842b09caa4da48be75611f133444520451c4494a3557863e32108"
   license "MIT"
 
   bottle do
-    sha256 cellar: :any_skip_relocation, arm64_sequoia:  "af686753eee64c90774803772a1ab7132c33091f9eccf1fcc0d4ead1b701f289"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:    "af686753eee64c90774803772a1ab7132c33091f9eccf1fcc0d4ead1b701f289"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma:   "af686753eee64c90774803772a1ab7132c33091f9eccf1fcc0d4ead1b701f289"
-    sha256 cellar: :any_skip_relocation, arm64_monterey: "af686753eee64c90774803772a1ab7132c33091f9eccf1fcc0d4ead1b701f289"
-    sha256 cellar: :any_skip_relocation, x86_64_sonoma:  "af686753eee64c90774803772a1ab7132c33091f9eccf1fcc0d4ead1b701f289"
+    root_url "https://github.com/IanKnighton/skipboi/releases/download/v1.2.3"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia:  "ba8c0428f81f892ceec78f9a9e65d988819cdc54df6b031f2244dbd6f05d2ff3"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:    "ba8c0428f81f892ceec78f9a9e65d988819cdc54df6b031f2244dbd6f05d2ff3"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma:   "ba8c0428f81f892ceec78f9a9e65d988819cdc54df6b031f2244dbd6f05d2ff3"
+    sha256 cellar: :any_skip_relocation, arm64_monterey: "ba8c0428f81f892ceec78f9a9e65d988819cdc54df6b031f2244dbd6f05d2ff3"
+    sha256 cellar: :any_skip_relocation, x86_64_sonoma:  "ba8c0428f81f892ceec78f9a9e65d988819cdc54df6b031f2244dbd6f05d2ff3"
   end
 
   depends_on xcode: ["12.0", :build]
