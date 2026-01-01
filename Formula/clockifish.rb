@@ -1,17 +1,17 @@
 class Clockifish < Formula
   desc "A Swift CLI for interacting with the Clockify time tracking API"
   homepage "https://github.com/IanKnighton/clockifish"
-  url "https://github.com/IanKnighton/clockifish/archive/refs/tags/1.1.0.tar.gz"
-  sha256 "9046fe109ec8ee9ece4c359a826b82cb601e705ac54ab6ca08cb2b49897be370"
+  url "https://github.com/IanKnighton/clockifish/archive/refs/tags/1.2.0.tar.gz"
+  sha256 "752f1200a67d48170750bde564b5a18ff41024d65ecf068f3f477bc71a48cea4"
   license "MIT"
 
   bottle do
-    root_url "https://github.com/IanKnighton/clockifish/releases/download/1.1.0"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia:  "996ca3964202593874d56ecb4333bc6b7f4fc211ac3b1372dd53df03ebfb6185"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:    "996ca3964202593874d56ecb4333bc6b7f4fc211ac3b1372dd53df03ebfb6185"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma:   "996ca3964202593874d56ecb4333bc6b7f4fc211ac3b1372dd53df03ebfb6185"
-    sha256 cellar: :any_skip_relocation, arm64_monterey: "996ca3964202593874d56ecb4333bc6b7f4fc211ac3b1372dd53df03ebfb6185"
-    sha256 cellar: :any_skip_relocation, x86_64_sonoma:  "996ca3964202593874d56ecb4333bc6b7f4fc211ac3b1372dd53df03ebfb6185"
+    root_url "https://github.com/IanKnighton/clockifish/releases/download/1.2.0"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia:  "a5e8ec2609183cca26d7da3de39af6e1d4c0da82a4039d1854b1f094c8065399"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:    "a5e8ec2609183cca26d7da3de39af6e1d4c0da82a4039d1854b1f094c8065399"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma:   "a5e8ec2609183cca26d7da3de39af6e1d4c0da82a4039d1854b1f094c8065399"
+    sha256 cellar: :any_skip_relocation, arm64_monterey: "a5e8ec2609183cca26d7da3de39af6e1d4c0da82a4039d1854b1f094c8065399"
+    sha256 cellar: :any_skip_relocation, x86_64_sonoma:  "a5e8ec2609183cca26d7da3de39af6e1d4c0da82a4039d1854b1f094c8065399"
   end
 
   depends_on xcode: ["12.0", :build]
