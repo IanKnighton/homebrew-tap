@@ -1,17 +1,17 @@
 class Noter < Formula
   desc "A Swift CLI for managing notes"
   homepage "https://github.com/IanKnighton/noter"
-  url "https://github.com/IanKnighton/noter/archive/refs/tags/1.3.0.tar.gz"
-  sha256 "7ec1904a03c0eb13c64f21ae2020198a69deaa914cbe76720f7bb160fb9cdfcf"
+  url "https://github.com/IanKnighton/noter/archive/refs/tags/1.3.1.tar.gz"
+  sha256 "fac141935f3f45ceee9c80cc7f5273ae88871c28dc7ca429e2bce2e5888801ad"
   license "MIT"
 
   bottle do
-    root_url "https://github.com/IanKnighton/noter/releases/download/1.3.0"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia:  "deca22fcf0185adef9670020b7cd878ba47837a74d7b5c9ff8e9304251ca575f"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:    "deca22fcf0185adef9670020b7cd878ba47837a74d7b5c9ff8e9304251ca575f"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma:   "deca22fcf0185adef9670020b7cd878ba47837a74d7b5c9ff8e9304251ca575f"
-    sha256 cellar: :any_skip_relocation, arm64_monterey: "deca22fcf0185adef9670020b7cd878ba47837a74d7b5c9ff8e9304251ca575f"
-    sha256 cellar: :any_skip_relocation, x86_64_sonoma:  "deca22fcf0185adef9670020b7cd878ba47837a74d7b5c9ff8e9304251ca575f"
+    root_url "https://github.com/IanKnighton/noter/releases/download/1.3.1"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia:  "375e5978b424fce433b00f00c066e3c3b638afaa0a82308872db0fc6799454ba"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:    "375e5978b424fce433b00f00c066e3c3b638afaa0a82308872db0fc6799454ba"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma:   "375e5978b424fce433b00f00c066e3c3b638afaa0a82308872db0fc6799454ba"
+    sha256 cellar: :any_skip_relocation, arm64_monterey: "375e5978b424fce433b00f00c066e3c3b638afaa0a82308872db0fc6799454ba"
+    sha256 cellar: :any_skip_relocation, x86_64_sonoma:  "375e5978b424fce433b00f00c066e3c3b638afaa0a82308872db0fc6799454ba"
   end
 
   depends_on xcode: ["12.0", :build]
